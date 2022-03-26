@@ -1,3 +1,3 @@
 def hello_world():
-    a = input()
-hello_world(a)
+    print('"Hello World"')
+hello_world()
