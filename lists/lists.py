@@ -5,7 +5,7 @@ def add_elem_to_list(list, elem):
     list.append(elem)
     return list
 def delete_elem_from_list(list, index = -1):
-    if -len(list) <= index < len(list):
+    if index == -1:
         list.pop(index)
         return list
     else:
