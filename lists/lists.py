@@ -21,5 +21,3 @@ def sort_list(list):
 def reverse(list):
     list.reverse()
     return list
-
-print(delete_elem_from_list([2,3,4,52,23,2]))
