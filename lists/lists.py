@@ -4,9 +4,8 @@ def size_of_list(list):
 def add_elem_to_list(list, elem):
     list.append(elem)
     return list
-
 def delete_elem_from_list(list, index = -1):
-    if index >=0 and index < len(list):
+    if -len(list) <= index < len(list):
         list.pop(index)
         return list
     else:
