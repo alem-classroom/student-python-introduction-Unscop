@@ -7,8 +7,10 @@ def add_elem_to_list(list, elem):
 def delete_elem_from_list(list, index = -1):
     if index >= 0 and index <= len(list):
         list.pop(index)
-    else:
+    elif index == -1:
         list.pop(-1)
+    else:
+        list = []
     return (list)
 
 def count_elements_in_list(list, x):
