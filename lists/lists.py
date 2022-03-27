@@ -5,12 +5,8 @@ def add_elem_to_list(list, elem):
     list.append(elem)
     return list
 def delete_elem_from_list(list, index = -1):
-    if index == -1 or index >= 0:
-        list.pop(index)
-        return list
-    else:
-        list = []
-        return list
+    list.pop(index)
+    return list
 
 def count_elements_in_list(list, x):
     return list.count(x)
